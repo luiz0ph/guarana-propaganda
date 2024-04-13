@@ -22,13 +22,23 @@ html, body {
 }
 
 /* Flex */
-body, main {
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
 
+header > h1 {
+    text-shadow: 1px 1px 10px #0000008c;
+}
 /* Fundo do produto */
 body > #produto {
     height: 300px;
