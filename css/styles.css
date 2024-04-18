@@ -52,7 +52,7 @@ body > #produto {
 
     box-shadow: 2px 2px 10px #0000008c;
 
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
 }
 
 img {
@@ -63,14 +63,14 @@ img {
 div.none {
     display: none;
 
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
 }
 
 body > #produto:hover {
     width: 500px;
     border-radius: 10px;
 
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
 }
 
 .none {
@@ -80,7 +80,7 @@ body > #produto:hover {
     
     margin-right: 50px;
 
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
 }
 
 
